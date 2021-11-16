@@ -152,7 +152,7 @@
       //   margin: 0;
       // }
       &-btn {
-        margin: -10px 0 0 0;
+        margin: -20px 0 0 0;
       }
     }
     @media screen and (max-width: 1366px) and (min-width: 1024px) {
@@ -193,6 +193,7 @@
     //   }
     // }
     @media screen and (max-width: 767px) {
+      margin-bottom: 180px;
       &-header {
         height: 100%;
         width: 100%;
@@ -215,7 +216,12 @@
         margin-top: 0px;
       }
       &-btn {
-        margin: 36px auto;
+        margin: 0px;
+      }
+    }
+    @media screen and (max-width: 320px) {
+      &-list {
+        padding: 60px 0px;
       }
     }
   }
