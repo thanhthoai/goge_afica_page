@@ -250,6 +250,7 @@ body {
   display: flex;
   align-items: center;
   margin-left: 230px;
+  line-height: 17.58px;
   font-size: 15px;
   gap: 0 40px;
 }
@@ -709,7 +710,7 @@ body {
 
 .footer {
   padding-top: 50px;
-  background-color: white;
+  background-color: yellow;
   line-height: 175.78%;
   color: #FFFFFF;
 }
